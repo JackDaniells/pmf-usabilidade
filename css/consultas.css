@@ -7,7 +7,7 @@ h6 {
   color: #0056B3;
 }
 
-.row {
+.row-1 {
   margin-bottom: 50px;
 }
 
@@ -17,6 +17,8 @@ h6 {
 
 .left-menu {
   background-color: #bbdccd;
+  position: relative;
+  height: 100%;
 }
 
 .note-icon {
@@ -51,4 +53,14 @@ h6 {
 .btn-background{
   color: buttontext;
   background-color: buttonface;
+}
+.a-little-breath {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+@media screen and (max-width: 700px){
+  .a-little-breath {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
