@@ -1,0 +1,36 @@
+.row {
+  margin-bottom: 50px;
+}
+
+.header-text {
+  color: #fff;
+}
+
+.left-menu {
+  background-color: #b1b1b1;
+}
+
+.note-icon {
+  height: 100px;
+  background-size: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-text {
+  padding: 30px;
+}
+
+.form-left-menu {
+  padding: 0 30px 0 30px;
+}
+
+.height-700 {
+  height: 700px;
+}
+
+.sub-text-menu {
+  padding: 30px;
+  padding-top: 20px;
+  font-size: 11px;
+}
