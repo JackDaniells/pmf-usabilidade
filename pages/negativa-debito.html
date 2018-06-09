@@ -54,10 +54,11 @@
 
       <form class="form-left-menu">
         <div class="form-group">
-          <label for="cpf" class="font-weight-bold">CPF</label>
-          <input id="cpf" maxlength="14" type="text" class="form-control" placeholder="Digite apenas os 11 números" onkeyup="cpfMask()">
+          <label for="cpf" class="font-weight-bold">CPF:</label>
+          <input id="cpf" maxlength="14" type="text" class="form-control" placeholder="Digite apenas os 11 números" onblur="verificarCampo()" onkeyup="cpfMask()">
+          <span id="errorCpf" class="d-none text-danger">Campo vazio, digite seu CPF</span>
         </div>
-        <button type="submit" class="btn btn-default text-uppercase">Gerar Certidão</button>
+        <a class="btn btn-default btn-background text-uppercase" role="button" onclick="imprimirNegativa()">Gerar Certidão</a>
       </form>
 
       <div class="sub-text-menu text-justify">
@@ -135,7 +136,7 @@
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../js/masks.js"></script>
-
+  <script src="../js/negativa-debito.js"></script>
 </body>
 
 </html>
