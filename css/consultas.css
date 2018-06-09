@@ -1,7 +1,21 @@
-.row{
+.row {
   margin-bottom: 50px;
 }
 
-.header-text{
+.header-text {
   color: #fff;
+}
+
+.left-menu {
+  background-color: #b1b1b1;
+}
+.float-left{
+  float: left;
+}
+.svg-icon {
+  height: 75px;
+}
+
+.form-left-menu{
+  padding-bottom: 10px
 }
