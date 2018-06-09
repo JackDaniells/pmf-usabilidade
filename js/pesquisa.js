@@ -5,5 +5,6 @@ pesquisar = function () {
         ? window.open("./pages/negativa-debito.html", "_self")
         : texto.includes('consul') ? window.open("./pages/consultas.html", "_self")
             : texto.includes('solici') ? window.open("./pages/solicitacao.html", "_self")
-                : console.error('Pesquisa não reconhecida');
+                : texto.includes('info') ? window.open("./pages/informacoes.html", "_self")
+                    : console.error('Pesquisa não reconhecida');
 };
