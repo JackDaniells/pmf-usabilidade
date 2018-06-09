@@ -32,10 +32,10 @@
   <nav class="navbar navbar-light bg-dark static-top" style="height:80px">
     <div class="container">
       <div align="left">
-        <a href="../index.html" class="header-text">
+        <a href="../pages/consultas.html" class="header-text">
           <i class="icon-arrow-left"></i>Voltar</a>
       </div>
-      <h3 class="header-text">Consultas</h3>
+      <h3 class="header-text">Certidão Negativa de Débito</h3>
       <div></div>
     </div>
   </nav>
@@ -44,7 +44,7 @@
   <section class="height-700">
     <div class="left-menu float-left col-md-3 height-700">
       <div class="note-icon" style="background-image: url('../img/note-icon.png');"></div>
-      <div class="menu-text">
+      <div class="menu-text text-justify">
         <p>
           A Certidão Negativa de Débitos (CND) é um documento emitido pela Fazenda Municipal que atesta que o contribuinte está em
           situação regular quanto ao pagamento dos tributos municipais. A Certidão tem validade pelo prazo de 90 (noventa)
@@ -54,26 +54,19 @@
 
       <form class="form-left-menu">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Digite aqui seu CPF">
+          <label for="cpf" class="font-weight-bold">CPF</label>
+          <input id="cpf" type="text" class="form-control" placeholder="Digite apenas os 11 números">
         </div>
-        <button type="submit" class="btn btn-default">Consultar CPF</button>
+        <button type="submit" class="btn btn-default text-uppercase">Gerar Certidão</button>
       </form>
 
-      <div class="sub-text-menu">
-        <p style="text-align:justify;">
+      <div class="sub-text-menu text-justify">
+        <p>
           Caso ocorra algum erro na emissão da Certidão, procure a unidade de atendimento central ou a unidade de atendimento do continente
           do Pró-cidadão para verificar e corrigir o problema que impediu a geração do documento. Para garantir a segurança
           das informações, a Certidão não será emitida caso os dados do contribuinte estejam incorretos ou incompletos ou
           ainda quando houver choque de homônimos.
         </p>
-        <p>
-          Clique
-          <a href="http://www.pmf.sc.gov.br/receita/cnd/_mais_informacoes/mais_informacoes.php" target="_parent">
-            <b>aqui</b>
-          </a>
-          para acessar os endereços, telefones e horários de atendimento de cada unidade do Pró-cidadão
-        </p>
-
       </div>
     </div>
 
