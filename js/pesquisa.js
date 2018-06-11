@@ -13,6 +13,9 @@ pesquisar = function () {
       //tela de solicitação
     } else if(texto.includes('solici')) {
       window.open("./pages/solicitacao.html", "_self")
+      //tela de solicitação
+    } else if(texto.includes('info')) {
+      window.open("./pages/informacoes.html", "_self")
       // nenhuma tela encontrada
     } else {
       alert('Nenhum serviço encontrado');
