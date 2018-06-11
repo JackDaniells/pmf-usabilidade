@@ -16,9 +16,13 @@ h6 {
 }
 
 .left-menu {
+  padding-top: 10%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 50%;
   background-color: #bbdccd;
   position: relative;
-  height: 1100px;
+  height: 100%;
 }
 
 .note-icon {
