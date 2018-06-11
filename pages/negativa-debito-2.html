@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>PMF - Solicitações</title>
+  <title>PMF - Consultas</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="../css/landing-page.css" rel="stylesheet">
-  <link href="../css/solicitacoes.css" rel="stylesheet">
+  <link href="../css/consultas.css" rel="stylesheet">
   <!-- <link href="../css/agency.min.css" rel="stylesheet"> -->
 
 
@@ -32,10 +32,10 @@
   <nav class="navbar navbar-light bg-dark static-top" style="height:80px">
     <div class="container">
       <div align="left">
-        <a href="../pages/solicitacoes.html" class="header-text">
+        <a href="./negativa-debito.html" class="header-text">
           <i class="icon-arrow-left"></i>Voltar</a>
       </div>
-      <h3 class="header-text">Pavimentação de Rua</h3>
+      <h3 class="header-text">Certidão Negativa de Débito</h3>
       <div></div>
     </div>
   </nav>
@@ -44,41 +44,54 @@
   <section>
     <div class="row">
       <div class="left-menu float-left col-md-3">
-        <div class="note-icon" style="background-image: url('../img/icon-wrench.png');"></div>
-        <div class="menu-text" align="center">
-          <h3>
-            Pavimentação de rua
-          </h3>
-          <p>
-            Referente à solicitação de pavimentação de ruas. (Via pública, quando aprovada no Plano Diretor do Município).
-          </p>
-        </div>
-
-        <form class="form-left-menu">
-
-        </form>
-
-        <div class="sub-text-menu text-justify">
-
+        <div class="note-icon" style="background-image: url('../img/note-icon.png');"></div>
+          <div class="menu-text" align="center" >
+            <h3>
+              Certidão Negativa de Débitos
+            </h3>
+            <p>
+              A Certidão Negativa de Débitos (CND) é um documento emitido pela Fazenda Municipal que atesta que o contribuinte está em
+              situação regular quanto ao pagamento dos tributos municipais. A Certidão tem validade pelo prazo de 90 (noventa)
+              dias, a partir da sua emissão.
+            </p>
         </div>
       </div>
 
       <div class="a-little-breath float-left col-md-9">
-        <div class="col-md-9" align="center" style="margin:16px">
-            <br><br>
-            <h3>Solicitação em andamento</h3>
+        <div class="col-md-9" style="margin: 16px;" >
+          <div >
+            <h3>Resultado da Consulta</h3>
             <p>
-              Para completar sua solicitação, efetue o download
-              do abaixo-assinado fornecido abaixo e o entregue
-              na unidade do Pró-Cidadão mais próxima de você
+              Sua certidão foi emitida com sucesso, efetue o
+              download dela no botão abaixo
             </p>
             <div align="center">
               <a class="btn btn-default btn-background text-uppercase" role="button"
-                  onclick="imprimirAbaixoAssinado()" style="background-color: #0056B3; color: #fff">Baixar</a>
+                onclick="imprimirNegativa()" style="background-color: #0056B3; color: #fff">Baixar</a>
               <a href="../index.html"class="btn btn-default btn-background text-uppercase" role="button"
                 style="background-color: #0056B3; color: #fff">Início</a>
             </div>
 
+          </div>
+          <!-- <div>
+            <h3>Requisitos</h3>
+            <p></p>
+            <p>Para emitir a CND pela internet é preciso ter em mãos:</p>
+            <ul>
+              <li>Número do CPF.
+                <br>Basta digitar os dados nos espaços indicados e gerar a certidão.</li>
+            </ul>
+            <p>
+              <br>
+              <strong>Importante: </strong>A CND não poderá ser emitida pela internet quando o contribuinte estiver irregular com
+              as suas obrigações tributárias, ou quando houver:
+              <br>- Parcelamento,
+              <br>- REFIS,
+              <br>- Suspensão da exigibilidade de tributo ou de exigibilidade de cumprimento de obrigação acessória em decorrência
+              de contencioso tributário administrativo ou judicial, conforme previsto na legislação.
+              <br>Nesses casos, o contribuinte deve procurar uma das unidades do Pró-cidadão para requerer a Certidão.</p>
+            <p></p>
+          </div> -->
         </div>
       </div>
     </div>
@@ -118,8 +131,7 @@
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../js/masks.js"></script>
-  <script src="../js/pavimentacao-rua.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  <script src="../js/negativa-debito.js"></script>
 </body>
 
 </html>

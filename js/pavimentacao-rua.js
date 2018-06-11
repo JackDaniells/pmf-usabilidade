@@ -20,8 +20,6 @@ function myMap() {
     return v.length >= 14;
 };
 
-imprimirNegativa = function (){
-    if(verificarCampo()){
-        window.open("../img/certidaoNegativaDebito.jpg", "_blank");
-    }
+imprimirAbaixoAssinado = function (){
+    window.open("../img/abaixoAssinado.jpg", "_blank");
 }

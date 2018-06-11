@@ -11,7 +11,5 @@
 };
 
 imprimirNegativa = function (){
-    if(verificarCampo()){
-        window.open("../img/certidaoNegativaDebito.jpg", "_blank");
-    }
+    window.open("../img/certidaoNegativaDebito.jpg", "_blank");
 }

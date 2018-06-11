@@ -45,42 +45,48 @@
     <div class="row">
       <div class="left-menu float-left col-md-3">
         <div class="note-icon" style="background-image: url('../img/note-icon.png');"></div>
-        <div class="menu-text text-justify">
-          <p>
-            A Certidão Negativa de Débitos (CND) é um documento emitido pela Fazenda Municipal que atesta que o contribuinte está em
-            situação regular quanto ao pagamento dos tributos municipais. A Certidão tem validade pelo prazo de 90 (noventa)
-            dias, a partir da sua emissão.
-          </p>
-        </div>
-
-        <form class="form-left-menu">
-          <div class="form-group">
-            <label for="cpf" class="font-weight-bold">CPF:</label>
-            <input id="cpf" maxlength="14" type="text" class="form-control" placeholder="Digite apenas os 11 números" onblur="verificarCampo()"
-              onkeyup="cpfMask()">
-            <span id="errorCpf" class="d-none text-danger">Campo vazio ou incorreto</span>
-          </div>
-          <a class="btn btn-default btn-background text-uppercase" role="button" onclick="imprimirNegativa()">Gerar Certidão</a>
-        </form>
-
-        <div class="sub-text-menu text-justify">
-          <p>
-            Caso ocorra algum erro na emissão da Certidão, procure a unidade de atendimento central ou a unidade de atendimento do continente
-            do Pró-cidadão para verificar e corrigir o problema que impediu a geração do documento. Para garantir a segurança
-            das informações, a Certidão não será emitida caso os dados do contribuinte estejam incorretos ou incompletos
-            ou ainda quando houver choque de homônimos.
-          </p>
+          <div class="menu-text" align="center">
+            <h3>
+              Certidão Negativa de Débitos
+            </h3>
+            <p>
+              A Certidão Negativa de Débitos (CND) é um documento emitido pela Fazenda Municipal que atesta que o contribuinte está em
+              situação regular quanto ao pagamento dos tributos municipais. A Certidão tem validade pelo prazo de 90 (noventa)
+              dias, a partir da sua emissão.
+            </p>
         </div>
       </div>
 
       <div class="a-little-breath float-left col-md-9">
-        <div class="col-md-12">
-          <div>
-            <h3>Como solicitar</h3>
-            <p>Online, sem custos, para todos os contribuintes que se encontrem absolutamente regulares no cumprimento de suas
-              obrigações com a Secretaria Municipal da Fazenda.</p>
+        <div class="col-md-9" style="margin: 16px;" >
+          <div >
+            <h3>Informações</h3>
+            <p>
+              Caso ocorra algum erro na emissão da Certidão, procure a unidade de atendimento central ou a unidade de atendimento do continente
+              do Pró-cidadão para verificar e corrigir o problema que impediu a geração do documento. Para garantir a segurança
+              das informações, a Certidão não será emitida caso os dados do contribuinte estejam incorretos ou incompletos
+              ou ainda quando houver choque de homônimos.
+            </p>
+            <br>
+            <h3>Consulta Online</h3>
+              <form class="form-left-menu">
+                <div class="form-group">
+                  <div class="row">
+                    <label for="cpf" class="font-weight-bold">CPF:</label>
+                    <input id="cpf" maxlength="14" type="text" class="form-control" placeholder="Digite apenas os 11 números" onblur="verificarCampo()"
+                      onkeyup="cpfMask()">
+                      <span id="errorCpf" class="d-none text-danger">Campo vazio ou incorreto</span>
+                  </div>
+                </div>
+                <div align="right">
+                  <a href="./negativa-debito-2.html" class="btn btn-default btn-background text-uppercase" role="button"
+                  style="background-color: #0056B3; color: #fff">Consultar</a>
+                </div>
+
+              </form>
+
           </div>
-          <div>
+          <!-- <div>
             <h3>Requisitos</h3>
             <p></p>
             <p>Para emitir a CND pela internet é preciso ter em mãos:</p>
@@ -98,7 +104,7 @@
               de contencioso tributário administrativo ou judicial, conforme previsto na legislação.
               <br>Nesses casos, o contribuinte deve procurar uma das unidades do Pró-cidadão para requerer a Certidão.</p>
             <p></p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
